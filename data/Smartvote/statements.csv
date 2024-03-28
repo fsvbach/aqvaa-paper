@@ -1,0 +1,76 @@
+number,name,rapid,mean,std,question
+0,answer_3387,False,0.5222698744769875,0.3619772065129789,"What is your position the following statement: ""Someone who is not guilty, has nothing to fear from state security measures.""."""
+1,answer_3388,True,0.3631694560669456,0.3030284893479168,"What is your position the following statement: ""Punishing criminals is more important than reintegrating them into society."""
+2,answer_3389,True,0.2593148535564853,0.30212867887148603,"What is your position the following statement: ""It is best for a child, when one parent stays home full-time for childcare."""
+3,answer_3391,False,0.6242154811715481,0.38465382863246056,Should the federal government provide more support for the integration of foreigners?
+4,answer_3392,True,0.6464435146443515,0.4007259346145781,Should cannabis use be legalized?
+5,answer_3398,True,0.13781380753138076,0.30492732036351183,"Should Switzerland terminate the Schengen Agreement with the EU, in order to reintroduce more security checks directly on the border?"
+6,answer_3399,True,0.6058420502092051,0.3293343939124653,"What is your position the following statement: ""Wealthy individuals should contribute more to the funding of the state."""
+7,answer_3412,True,0.48522489539748953,0.42235733213705606,Do you support an increase in the retirement age (e.g. to 67)?
+8,answer_3413,False,0.7599372384937239,0.3426061294725792,Should the federal government provide more financial support for the creation of childcare facilities outside the family?
+9,answer_3414,True,0.6307531380753139,0.4236201878681246,An initiative calls for the introduction of paid paternity leave for four weeks. Do you support this proposal?
+10,answer_3415,False,0.5587081589958159,0.41142279017147976,Should the conversion rate of the occupational pension fund be reduced in order to adjust for increases in life expectancy?
+11,answer_3416,True,0.28072698744769875,0.36583366404349266,Do you support cantonal efforts to reduce social welfare benefits?
+12,answer_3417,True,0.5444560669456067,0.4168709500117467,Should the federal government provide more support for the construction of non-profit housing? 
+13,answer_3418,True,0.3842834728033473,0.4030627241263929,Should insured persons contribute more to healthcare costs (e.g. by increasing the minimal deductible)?
+14,answer_3419,False,0.6746861924686193,0.3862022498231153,Would you support the introduction of an opt-out solution of for organ donation?
+15,answer_3420,True,0.5489016736401674,0.37600567644005883,Should compulsory vaccination of children be introduced based on the Swiss vaccination plan?
+16,answer_3421,False,0.4818253138075314,0.43863694589720087,An initiative calls for health insurance subsidies to be designed so that no one needs to spend more than ten percent of their disposable income on health insurance premiums. Do you support this proposal?
+17,answer_3422,False,0.5852510460251046,0.40079661615807255,An initiative wants to give the federal government more powers to introduce measures to reduce healthcare costs (Introduction of a cost barrier). Do you support this proposal?
+18,answer_3423,False,0.7157426778242678,0.3542048718747473,Should the government increase its efforts to support equal education opportunities (e.g. through vouchers for private tutoring for students from low-income families)?
+19,answer_3424,False,0.11153242677824268,0.22964287564534272,"Are you in favour of schools granting/allowing exemptions from individual subjects or events for religious reasons (e.g. PE/swimming, sex education, etc.)?"
+20,answer_3425,False,0.7530073221757322,0.3245535579560655,Should the federal government expand its financial support for continued education and retraining?
+21,answer_3426,False,0.6222541841004184,0.3560316665712922,"According to the Swiss integrated schooling concept, children with learning difficulties or disabilities should be taught in regular classes. Do you approve of this concept?"
+22,answer_3427,True,0.555831589958159,0.45203040849026715,Should foreigners who have lived in Switzerland for at least ten years be given the right to vote and be elected at the municipal level?
+23,answer_3428,True,0.18331589958158995,0.3389102624363018,Is limiting immigration more important to you than maintaining the bilateral treaties with the EU?
+24,answer_3429,False,0.5332112970711297,0.4162710309859268,Should sans-papiers be able to obtain a regularized residence status more easily?
+25,answer_3430,True,0.27615062761506276,0.3746217129971239,Are you in favor of further tightening the asylum law?
+26,answer_3431,True,0.20750523012552302,0.3448316161694667,Should the requirements for naturalization be increased?
+27,answer_3432,True,0.8291056485355649,0.30974725999651886,Should same-sex couples have the same rights as heterosexual couples in all areas?
+28,answer_3433,False,0.5030073221757322,0.37643512786825806,Should the rules for reproductive medicine be further relaxed?
+29,answer_3434,False,0.7052824267782427,0.37817322860961106,Are you in favour of stricter monitoring of pay equity for women and men? 
+30,answer_3435,True,0.6303608786610879,0.37575672888982037,Would you be in favour of a doctor being allowed to administer direct active euthanasia in Switzerland?
+31,answer_3436,True,0.32936715481171547,0.3731879535778399,"In your opinion, is lowering taxes at the federal level a priority for the next four years?"
+32,answer_3437,False,0.30060146443514646,0.35256539696865447,Do you support a further reduction in contributions paid by financially strong cantons to financially weak cantons within the framework of financial equalisation (NFA)?
+33,answer_3438,False,0.7528765690376569,0.38174197854617725,Should married couples be taxed separately (individual taxation)?
+34,answer_3439,False,0.5026150627615062,0.42272379634822327,Are you in favour of restricting competition between the cantons with regard to corporate tax rates?
+35,answer_3440,True,0.6401673640167364,0.39509694273932916,Should private households be free to choose their electricity supplier (complete liberalisation of the electricity market)?
+36,answer_3441,True,0.4297855648535565,0.44453552455467366,Are you in favour of introducing a general minimum wage of CHF 4'000 for all employees for full-time employment?
+37,answer_3442,True,0.6304916317991632,0.3789616054594535,Should investment controls be introduced in order to better protect Swiss companies from takeovers by foreign investors?
+38,answer_3443,True,0.45789748953974896,0.43213460647102064,Are you in favour of a complete liberalisation of business hours for shops?
+39,answer_3444,False,0.5443253138075314,0.4074823015645426,Should the protection against dismissal for older employees be extended?
+40,answer_3445,False,0.6850156903765691,0.37079277757004686,"Should the federal government provide more support for public services (e.g. public transport, post offices) in rural regions?"
+41,answer_3446,False,0.6446129707112971,0.3609790408343369,Should the expansion of the mobile network according to the 5G standard continue?
+42,answer_3447,False,0.6136244769874477,0.39704071628684956,"Should online brokerage services (e.g. ""Airbnb"" accommodations, ""Uber"" taxi services) be regulated more strongly?"
+43,answer_3448,True,0.7686976987447699,0.3549522983479589,An initiative calls for Switzerland to stop using fossil fuels by 2050. Do you support this proposal?
+44,answer_3449,True,0.7352248953974896,0.3774588692249214,"Currently, a CO2 charge is levied on fossil combustibles (e.g. heating oil, natural gas). Should this charge be extended to motor fuels (e.g. petrol, diesel)?"
+45,answer_3450,False,0.8627092050209205,0.283956282259132,Should the federal government provide more support for renewable energies?
+46,answer_3451,True,0.381668410041841,0.4107497056056606,Should high traffic motorways be expanded to six lanes?
+47,answer_3452,False,0.5325575313807531,0.41241575812109516,"Are you in favour of introducing ""Road Pricing"" for motorised individual transport on busy roads?"
+48,answer_3453,True,0.2820345188284519,0.374557394982301,"Do you support the relaxation of the current measures to protect large predators (lynx, wolves, bears)?"
+49,answer_3454,True,0.7872646443514645,0.34325175252988793,Should the current moratorium on genetically modified plants and animals in Swiss agriculture be extended beyond 2021?
+50,answer_3455,False,0.6642259414225942,0.3774851748665253,Should direct payments only be granted to farmers that provide an extended ecological performance record (e.g. no synthetic pesticides and limited use of antibiotics)?
+51,answer_3456,False,0.6549424686192469,0.3966505458281651,Are you in favour of extending landscape protection (e.g. stricter rules for building outside existing building zones)?
+52,answer_3457,False,0.700444560669456,0.36186773629047264,Are you in favour of stricter animal welfare regulations for livestock (e.g. permanent access to outdoor areas)?
+53,answer_3458,False,0.7137813807531381,0.39822628761437184,Should campaign finance for political parties and referendums be openly declared?
+54,answer_3459,False,0.5550470711297071,0.3921614191004426,Should the introduction of electronic voting in elections and referendums (e-voting) be further pursued?
+55,answer_3460,False,0.4582897489539749,0.4414938886672716,Are you in favour of lowering the voting age to 16?
+56,answer_3461,False,0.5913964435146444,0.4426656631395429,Should the Federal Council's proposal to tighten the conditions for admission to the civil service be abandoned?
+57,answer_3462,False,0.580805439330544,0.42010287520789946,Should the export of war materials from Switzerland be banned? 
+58,answer_3463,True,0.5800209205020921,0.42811746357523794,Are you in favour of Switzerland acquiring new fighter jets for the armed forces?
+59,answer_3464,False,0.7014905857740585,0.3400205089933984,Do you support an expansion of the legal possibilities for using DNA analysis in investigations? 
+60,answer_3465,False,0.5645554393305439,0.3549509456187159,"What is your position the following statement: ""In the long term, everyone benefits from a free market economy in the long term."""
+61,answer_3466,True,0.6828033472803348,0.24309272570508153,"What is your position the following statement: ""The ongoing digitalization offers significantly more opportunities than risks."""
+62,answer_3467,False,0.6944769874476987,0.3149916123470664,"What is your position the following statement: ""Stronger environmental protection is necessary, even if its application limits economic growth."""
+63,answer_3468,True,0.22973326359832635,0.3436286831463847,Should Switzerland start membership negotiations with the EU?
+64,answer_3469,True,0.6351987447698745,0.37443564684041125,Should Switzerland strive for a free trade agreement with the USA?
+65,answer_3470,False,0.6507583682008368,0.40022651904174794,An initiative calls for liability rules for Swiss companies with regard to compliance with human rights and environmental standards abroad to be tightened. Do you support this proposal?
+66,answer_3471,False,0.7476464435146444,0.3687593644401175,Are you in favour of Switzerland's candidacy for a seat on the UN Security Council? 
+67,answer_3472,False,0.5736140167364017,0.2945753465953037,"Should the federal government spend more or less in the area of ""Development assistance""?"
+68,answer_3473,False,0.39278242677824265,0.29128758125246235,"Should the federal government spend more or less in the area of ""National defence""?"
+69,answer_3474,False,0.5717834728033473,0.17933568084676477,"Should the federal government spend more or less in the area of ""Public security""?"
+70,answer_3475,False,0.7820345188284519,0.19015593826938199,"Should the federal government spend more or less in the area of ""Education and research""?"
+71,answer_3476,False,0.56668410041841,0.2603159707032346,"Should the federal government spend more or less in the area of ""Social services""?"
+72,answer_3477,False,0.3617939330543933,0.29354341711912657,"Should the federal government spend more or less in the area of ""Road traffic (motorised individual transport)""?"
+73,answer_3478,False,0.71875,0.2226044783777389,"Should the federal government spend more or less in the area of ""Public transport""?"
+74,answer_3479,False,0.4478294979079498,0.23284522365089896,"Should the federal government spend more or less in the area of ""Agriculture""?"
