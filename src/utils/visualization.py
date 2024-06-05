@@ -2,6 +2,20 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse, FancyArrow
+from matplotlib.colors import LinearSegmentedColormap
+
+# Define the colors
+pruple_hex = '#0127A4'
+blue_hex = '#7696FE'
+red_hex = '#DC6025'
+orange_hex = '#EAA07D'
+neutral_color = '#D9E1E8'
+
+# Create custom colormap
+colors = [blue_hex, neutral_color, orange_hex]
+n_bins = 10  # Number of bins for levels
+cmap_name = 'custom_cmap'
+custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors, N=n_bins)
 
 colormap = mpl.colormaps['viridis']
 
@@ -88,7 +102,7 @@ def plotQuestion(question, ax=None):
     return ax
 
 
-def plotFeature(predict, q, d=0, r=100, ax=None):
+def plotFeature(predict, q, d=0, r=100, cmap=plt.cm.coolwarm, ax=None):
     fig, ax, area = figure(ax)
 
     # Create a grid of points to evaluate
@@ -101,10 +115,10 @@ def plotFeature(predict, q, d=0, r=100, ax=None):
     Z = Z.reshape(xx.shape)
 
     # Plot the decision boundary at 50% probability
-    ax.contour(xx, yy, Z, levels=[0.5], colors='green', linestyles='--')
+    ax.contour(xx, yy, Z, levels=[0.5], colors='black', linestyles='--')
 
     # Plot heatmap of probability
-    contour = ax.contourf(xx, yy, Z, alpha=0.8, cmap=plt.cm.coolwarm, levels=np.linspace(0, 1, 11),  zorder=1)
+    contour = ax.contourf(xx, yy, Z, alpha=0.8, cmap=cmap, levels=np.linspace(0, 1, 11),  zorder=1)
 
     # Create a colorbar with limits from 0 to 1
     colorbar = fig.colorbar(contour, ax=ax)
@@ -117,7 +131,7 @@ def plotFeature(predict, q, d=0, r=100, ax=None):
     
     return ax
     
-def plotObjective(objective, answers, d=0, r=100, ax=None, clabel='Loss'):
+def plotObjective(objective, answers, d=0, r=100, ax=None, cmap=plt.cm.coolwarm, clabel='Loss'):
     fig, ax, area = figure(ax)
 
     # Create a grid of points to evaluate
@@ -130,7 +144,7 @@ def plotObjective(objective, answers, d=0, r=100, ax=None, clabel='Loss'):
     Z = Z.reshape(xx.shape)
 
     # Plot heatmap of probability
-    contour = ax.contourf(xx, yy, Z, alpha=0.8, cmap=plt.cm.coolwarm, zorder=1)
+    contour = ax.contourf(xx, yy, Z, alpha=0.8, cmap=cmap, zorder=1)
 
     # Create a colorbar with limits from 0 to 1
     colorbar = fig.colorbar(contour, ax=ax)
@@ -155,7 +169,7 @@ def plotEmbedding(E, n=None, highlight={}, ax=None, **kwargs):
         params.update(highlight)
         ax.scatter(E.loc[n].iloc[0],E.loc[n].iloc[1], **params)
 
-    params = {'zorder':2}
+    params = {'zorder':2, 'edgecolors':'black', 'linewidths':0.2}
     params.update(**kwargs)
     ax.scatter(E.iloc[:,0],E.iloc[:,1], **params)
     ax.set(aspect='equal')
